@@ -13,7 +13,7 @@ html {
   width: 984px;
   height: 900px;
 
-  background: url(/image/just-boat.png);
+  background: url(./image/just-boat.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
