@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="/style/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <main class="main">
+      <section class="left"><p>Photo by Alexandr Popadin</p></section>
+      <div class="container">
+        <section class="right">
+          <header>
+            <img src="./image/avatar-uni.png" alt="Logo" />
+            <img
+              src="./image/unicron-logo.svg"
+              alt="LogoText"
+              class="logo__text"
+            />
+          </header>
+          <p class="welcome__text">Nice To See You Again</p>
+          <form>
+            <label for="Login" class="Login">Login</label>
+            <input
+              id="Login"
+              class="Email"
+              type="text"
+              name="login"
+              placeholder="Email or Phone Number"
+              required
+            />
+            <label for="Password" class="Password">Password</label>
+            <input
+              id="Password"
+              class="enter__password"
+              type="text"
+              name="password"
+              placeholder="Enter Password"
+              required
+            />
+            <input
+              class="hidden"
+              type="hidden"
+              id="rememberme_input"
+              name="rememberme"
+              value="0"
+            />
+            <label class="checkbox">
+              <input name="check1" type="checkbox" checked>
+            <span></span></label>
+
+            <a href="" class="forgotpass">Forgot Password?</a>
+            <br />
+            <button class="button">Sign In</button>
+            <br />
+            <hr class="line__hr" />
+            <button class="google__button">
+              <img
+                src="/image/google-logo.svg"
+                alt="Or sign in With Google"
+                class="google__img"
+              />Or sign in With Google
+            </button>
+            <p class="account">
+              Dont have an account? <a href="" class="sign__up">Sing up now</a>
+            </p>
+            <footer>
+              <div class="image__footer">
+                <img src="/image/figma_logo.svg" alt="" />
+                <a href="" class="unicorn__link">@unicron</a>
+                <p class="perfect__login">© Perfect Login 2021</p>
+              </div>
+            </footer>
+          </form>
+        </section>
+      </div>
+    </main>
+  </body>
+</html>
