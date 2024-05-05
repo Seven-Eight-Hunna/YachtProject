@@ -4,7 +4,7 @@ html {
 
 .main {
   display: flex;
-  width: 1440px;
+  max-width: 1440px;
 
  
 }
@@ -22,6 +22,9 @@ html {
   font-weight: 400;
   color: white;
 }
+
+
+
 .right {
   width: 456px;
   padding-top: 55px;
@@ -36,7 +39,7 @@ p {
 
 .container {
   max-width: 360px;
-  margin: 0 auto;
+  margin-left: 35px;
 }
 
 header {
@@ -246,4 +249,19 @@ label input:checked + span::after { transform: translateX(0px);
 
 label input{
   display: none;
+}
+
+@media(width <= 768px) {
+  .left{
+    display: none;
+  }
+
+  .container{
+    margin: 0;
+  }
+
+  .main{
+    justify-content: center;
+    align-items: center;
+  }
 }
